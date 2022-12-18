@@ -1,10 +1,10 @@
-ывыи
-n = 6
-k = 1
-acc = 1
 
-while k != n:
-    acc*=k
-    k+=1
-    
-print(acc)
+def factorial(n):
+    k = 1
+    acc = 1
+
+    while k != (n+1):
+        acc*=k
+        k+=1
+
+    return acc
